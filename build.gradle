@@ -24,3 +24,9 @@ configurations {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+release {
+    svn {
+        username.set("29Takuya")
+    }
+}
