@@ -1,4 +1,4 @@
-package model;
+package takuya.springframework.sfgpetclinic.model;
 
 public class PetType {
 
