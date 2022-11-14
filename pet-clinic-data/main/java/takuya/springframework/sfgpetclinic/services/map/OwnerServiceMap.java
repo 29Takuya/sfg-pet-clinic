@@ -1,10 +1,12 @@
 package takuya.springframework.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import takuya.springframework.sfgpetclinic.model.Owner;
 import takuya.springframework.sfgpetclinic.services.OwnerService;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
